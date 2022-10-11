@@ -13,19 +13,19 @@
     <div class="bg" style="background: #CCCCCC; display: flex; align-items: center; justify-content: center; height: 100vh; margin: 0; padding: 0;">
         <div class="item" style="text-align: center;">
             <img src="https://media.tenor.com/WnVtIyrGFqsAAAAj/tkthao219-quby.gif" alt="tenet slow" height="200px">
-            <h1>Saya suka awak.</h1>
-            <h1>Awak nak kat saya tak?</h1>
-            <button style="font-size: 25px;" onclick="nak()">nak</button>
+            <h1>Hi awak!!</h1>
+            <h1>Saya suka awak,awak suka saya tak?</h1>
+            <button style="font-size: 25px;" onclick="Suka()">Suka</button>
             <div id="btn" style="position:absolute; padding: 10px; margin-left: 0; margin-right: 0; left: 0; right: 0; text-align: center;">
-                <button style="font-size:25px;" onmouseover="taknak()">taknak</button>
+                <button style="font-size:25px;" onmouseover="Tak suka()">Tak suka</button>
             </div>
         </div>
     </div>
     <script>
-        function nak(){
+        function Suka(){
             alert("Yeay! Terima Kasih");
         }
-        function taknak() {
+        function Tak suka() {
             var i = Math.floor(Math.random() * 300) + 1;
             var j = Math.floor(Math.random() * 600) + 1;
             btn.style.left = i + "px";
